@@ -1,6 +1,10 @@
 apply plugin: 'com.android.application'
 
 android {
+    compileOptions {
+        targetCompatibility = "8"
+        sourceCompatibility = "8"
+    }
     compileSdkVersion 28
     defaultConfig {
         applicationId "com.example.wallpaper"
